@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+    <h1>Calculator</h1>
+    <form name="cal">
+        <div id="main">
+            <div id="firstrow"> 
+                <input type="text"  name="result" id="result" class="inputresult">
+            </div>
+            <div id="secondrow">
+                <input type="button" value="1" class="btn" id="one" onclick="result.value += '1'">
+                <input type="button" value="2" class="btn" id="two" onclick="result.value += '2'">
+                <input type="button" value="3" class="btn" id="three" onclick="result.value += '3'">
+                <input type="button" value="÷" class="btn" id="dived" onclick="result.value += '/'">
+            </div>
+            <div id="thirdrow">
+                <input type="button" value="4" class="btn" id="four" onclick="result.value += '4'">
+                <input type="button" value="5" class="btn" id="five" onclick="result.value += '5'">
+                <input type="button" value="6" class="btn" id="six" onclick="result.value += '6'">
+                <input type="button" value="×" class="btn" id="mul" onclick="result.value += '*'">
+            </div>
+            <div id="forthrow">    
+                <input type="button" value="7" class="btn" id="seven" onclick="result.value += '7'">
+                <input type="button" value="8" class="btn" id="eight" onclick="result.value += '8'">
+                <input type="button" value="9" class="btn" id="nine" onclick="result.value += '9'">
+                <input type="button" value="-" class="btn" id="minus" onclick="result.value += '-'" >
+            </div>
+            <div id="fifthrow">    
+                <input type="button" value="0" class="btn" id="zero" onclick="result.value += '0'" >
+                <input type="button" value="." class="btn" id="point" onclick="result.value += '.'">
+                <input type="button" value="%" class="btn" id="moduls" onclick="result.value += '%'" >
+                <input type="button" value="+" class="btn" id="add" onclick="result.value += '+'">
+            </div>
+            <div id="sixthrow">
+                <input type="button" value="Clear" class="btn" id="Clear" onclick="result.value = ''" >
+                <input type="button" value="=" class="btn" id="equal" onclick="result.value = eval(cal.result.value)" >
+            </div>
+        </div>    
+    </form>
+</body>
+</html>

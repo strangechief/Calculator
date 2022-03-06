@@ -1,0 +1,40 @@
+body{
+    background-color:aliceblue;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+form{
+    margin-top: 100px;
+    text-align: center;
+}
+input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size:x-large;
+}
+#result{
+    width: 275px;
+    height: 30px;
+}
+.btn{
+    width: 65px;
+    height: 30px;
+}
+#secondrow,#thirdrow,#forthrow,#fifthrow,#sixthrow{
+    margin-top: 15px;
+}
+#one,#four,#seven,#zero,#Clear{
+    margin-right: 2px;
+}
+#two,#five,#eight,#point{
+    margin-right: 2px;
+}
+#three,#six,#nine,#moduls{
+    margin-right: 2px;
+}
+#Clear{
+    width: 210px;
+    height: 30px;
+}
